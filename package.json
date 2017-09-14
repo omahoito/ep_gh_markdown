@@ -1,7 +1,7 @@
 {
   "name": "@omahoito/ep_gh_markdown",
   "description": "Markdown support for etherpad",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Samuli Polvi",
     "email": "samuli.polvi@codecontrol.fi"
