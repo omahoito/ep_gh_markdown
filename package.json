@@ -1,0 +1,29 @@
+{
+  "name": "ep_gh_markdown",
+  "description": "Markdown support for etherpad",
+  "version": "1.0.0",
+  "author": {
+    "name": "Samuli Polvi",
+    "email": "samuli.polvi@codecontrol.fi"
+  },
+  "contributors": [
+    {
+      "name": "Toni Iltanen",
+      "email": "toni.iltanen@codecontrol.fi"
+    }
+  ],
+  "bundleDependencies": false,
+  "deprecated": false,
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "ep_etherpad_lite": ">=1.5.1",
+    "ep_headings2": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

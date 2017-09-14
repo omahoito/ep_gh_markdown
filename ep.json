@@ -1,0 +1,26 @@
+{
+  "parts": [
+    {
+      "name": "main",
+      "client_hooks": {
+        "aceEditorCSS": "ep_gh_markdown/static/js/index",
+        "postAceInit": "ep_gh_markdown/static/js/index",
+        "aceDomLinePreProcessLineAttributes": "ep_gh_markdown/static/js/index",
+        "aceCreateDomLine": "ep_gh_markdown/static/js/index",
+        "acePostWriteDomLineHTML": "ep_gh_markdown/static/js/index",
+        "collectContentPre": "ep_gh_markdown/static/js/index",
+        "ccRegisterBlockElements": "ep_gh_markdown/static/js/index",
+        "collectContentImage": "ep_gh_markdown/static/js/index",
+        "aceInitialized": "ep_gh_markdown/static/js/index",
+        "aceAttribsToClasses": "ep_gh_markdown/static/js/index"
+      },
+      "hooks":{
+        "eejsBlock_editbarMenuRight": "ep_gh_markdown/index",
+        "eejsBlock_dd_format":"ep_gh_markdown/index",
+        "eejsBlock_scripts": "ep_gh_markdown/index",
+        "eejsBlock_mySettings": "ep_gh_markdown/index",
+        "eejsBlock_exportColumn": "ep_gh_markdown/index"
+      }
+    }
+  ]
+}
