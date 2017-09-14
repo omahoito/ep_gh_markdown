@@ -12,6 +12,11 @@
       "email": "toni.iltanen@codecontrol.fi"
     }
   ],
+  "repository" :
+  { 
+    "type" : "git", 
+    "url" : "https://github.com/omahoito/ep_gh_markdown.git"
+  },
   "bundleDependencies": false,
   "deprecated": false,
   "engines": {
