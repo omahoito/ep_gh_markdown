@@ -89,6 +89,7 @@ exports.postAceInit = function (hook, context) {
       }
     });
 
+    // ------- Imported from ep_copy_paste_images ------------
     $inner.on("drop", function (e) {
       e = e.originalEvent;
       var file = e.dataTransfer.files[0];
@@ -138,6 +139,7 @@ exports.postAceInit = function (hook, context) {
       // TODO, if the image is moved only one line up it will create a duplicate
       // IF the line is already populated, nothing much I can do about that for now
     })
+    // --------------------------------------
   }, 'img', true);
 }
 
