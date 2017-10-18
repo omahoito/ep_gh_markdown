@@ -1,7 +1,7 @@
 {
   "name": "@omahoito/ep_gh_markdown",
   "description": "Markdown support for etherpad",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": {
     "name": "Samuli Polvi",
     "email": "samuli.polvi@codecontrol.fi"
@@ -12,10 +12,9 @@
       "email": "toni.iltanen@codecontrol.fi"
     }
   ],
-  "repository" :
-  { 
-    "type" : "git", 
-    "url" : "https://github.com/omahoito/ep_gh_markdown.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omahoito/ep_gh_markdown.git"
   },
   "bundleDependencies": false,
   "deprecated": false,
@@ -25,7 +24,6 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "ep_etherpad_lite": ">=1.5.1",
     "ep_headings2": "*"
   },
   "scripts": {
