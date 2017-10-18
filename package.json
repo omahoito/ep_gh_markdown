@@ -25,7 +25,6 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "ep_etherpad_lite": ">=1.5.1",
     "ep_headings2": "*"
   },
   "scripts": {
