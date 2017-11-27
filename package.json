@@ -1,5 +1,5 @@
 {
-  "name": "@omahoito/ep_gh_markdown",
+  "name": "ep_gh_markdown",
   "description": "Markdown support for etherpad",
   "version": "1.0.4",
   "author": {
